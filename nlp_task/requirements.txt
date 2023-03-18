@@ -1,0 +1,19 @@
+nvflare==2.0.5
+pandas==1.4.1
+torch==1.13.1
+torchvision==0.14.1
+pytorch-pretrained-bert==0.6.2
+# opencv-python==4.4.0.46
+# Limit the version of protobuf, since nvflare doesn't do this but versions 3.21+ have breaking changes.
+# See: https://github.com/NVIDIA/NVFlare/issues/608
+protobuf<3.21
+tqdm==4.64.1
+matplotlib==3.7.0
+scipy==1.10.1
+scikit-learn==1.2.1
+funcsigs==1.0.2
+fonttools==4.38.0
+boto3==1.26.77
+requests==2.28.2
+botocore==1.29.77
+urllib3==1.26.14

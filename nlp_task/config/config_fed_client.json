@@ -1,0 +1,27 @@
+{
+  "format_version": 2,
+  "executors": [
+    {
+      "tasks": ["train", "submit_model"],
+      "executor": {
+        "path": "nlp_trainer.NLPTrainer",
+        "args": {
+          "lr":2e-5,
+          "epochs": 1,
+          "output_dir": "/output/",
+          "bert_model": "/home/localuser/custom/model/pretraining",
+          "task_name": "readmission",
+          "max_seq_length": 512,
+          "train_batch_size": 8
+
+        }
+      }
+    }
+  ],
+  "task_result_filters": [
+  ],
+  "task_data_filters": [
+  ],
+  "components": [
+  ]
+}
