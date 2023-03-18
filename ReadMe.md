@@ -2,15 +2,20 @@
 
 - This repository holds the scripts for training a federated training pipeline for a NLP Task of patient readmission based on the clinical text dataset.
 
-# Datasets
+# Dataset
 
 - We use MIMIC-III dataset. We assume that anyone using this repository has a license to access the MIMIC-III dataset. If not, license can be obtained by applying at www.physionet.org
 - Dataset needs to be loaded into the Rhino Health (RH) dashboard using the client VM.
 
-This are the following steps required for the 
-- Relevant schema for the loading the dataset needs to uploaded on the RH dashboard
-- Upload the dataset to the client VM using the upload option in the ssh terminal
-- Move the folder to the
+# Load -- Dataset in Rhino Health Dashboard
+
+This are the following steps required for the loading the dataset in the Rhino Health Dashboard
+- Step 1: Relevant schema for the loading the dataset needs to uploaded on the RH dashboard
+- Step 2: Upload the dataset to the client VM using the upload option in the ssh terminal
+- Step 3: Move the folder to the respective loaction inside the client VM
+- Step 4: Go the Rhino Health dashboard, select cohort and select Import New Cohort
+- Step 5: Fill the required information in the Import New Cohort page and click on Import new cohort.
+- Step 6: The cohort should be imported to the cohort section of the Rhino Health dashboard.
 
 # Model
 
